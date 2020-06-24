@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(final String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);//ввод дня недели;
         System.out.print("Введите день недели (MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY): ");
         String n = in.nextLine();
 

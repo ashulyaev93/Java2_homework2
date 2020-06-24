@@ -20,7 +20,7 @@ public enum DayOfWeek {
         this.hours = hours;
     }
 
-    public enum DayOfWeekRest {
+    public enum DayOfWeekRest {// выходные дни вынесли в отдельный класс из-за string,string;
 
         SATURDAY("Суббота", "Выходной"), SUNDAY("Воскресенье", "Выходной");
 
