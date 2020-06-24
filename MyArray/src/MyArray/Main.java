@@ -12,7 +12,7 @@ public class Main {
 						int x = Integer.parseInt(array[i][j]);
 						System.out.println(x);
 					} catch (NumberFormatException e){
-						System.out.println("Возникло NumberFormatException в строке " + i + " столбце " + j);
+						System.out.println("Возникло NumberFormatException в строке " + i + " столбце " + j); //координаты не преобразованного элемента здесь;
 				}
 			}
 		}
